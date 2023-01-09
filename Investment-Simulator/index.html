@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 class="title">Investment Simulator</h1>
+  <h2 class="money">You have 500 dollars.</h2>
+  <h2 class="err"></h2>
+  <h2 id="netWorth">Your networth is: 0</h2>
+  <p>In this simulator, in the textboxes you will need to buy the stocks, put the amount of stocks that you want then
+    click the "Buy!" button. (Only whole numbers) When you buy your first stock, the stock maket will activate.</p>
+
+
+  <div class="stocks stock1">
+    <h2 class="stock1Declare declared">Stock 1: cutedogpics.com</h2>
+    <h2 class="stock1Value">This stock is worth $500.</h2>
+    <h2 class="stocksUserHas stock1Amount">You own 0 stocks.</h2>
+    <input type="text" class="investbox invest1" placeholder="Amount of stocks goes here...">
+    <button class="addInvest1">Buy!</button><br>
+    <h2>Sell your stocks below!</h2>
+    <input type="text" placeholder="Amount of stocks to sell go here..." class="sellStock1" style="width: 300px;">
+    <button class="sellInvest1">Sell!</button>
+  </div>
+
+
+  <div class="stocks stock2">
+    <h2 class="stock2Declare declared">Stock 2: cutecatpics.com</h2>
+    <h2 class="stock2Value">This stock is worth $500.</h2>
+    <h2 class="stocksUserHas stock2Amount">You own 0 stocks.</h2>
+    <input type="text" class="investbox invest2" placeholder="Amount of stocks goes here...">
+    <button class="addInvest2">Buy!</button>
+    <h2>Sell your stocks below!</h2>
+    <input type="text" placeholder="Amount of stocks to sell go here..." class="sellStock2" style="width: 300px;">
+    <button class="sellInvest2">Sell!</button>
+  </div>
+
+  <div class="stocks stock3">
+    <h2 class="stock3Declare declared">Stock 3: cuteparrotspics.com</h2>
+    <h2 class="stock3Value">This stock is worth $500.</h2>
+    <h2 class="stocksUserHas stock3Amount">You own 0 stocks.</h2>
+    <input type="text" class="investbox invest3" placeholder="Amount of stocks goes here...">
+    <button class="addInvest3">Buy!</button>
+    <h2>Sell your stocks below!</h2>
+    <input type="text" placeholder="Amount of stocks to sell go here..." class="sellStock3" style="width: 300px;">
+    <button class="sellInvest3">Sell!</button>
+  </div>
+<textarea class="saveCode"></textarea>
+  <button class="loadSaveCode">Load Progress!</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/store2/2.0.3/store.js"></script>
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
